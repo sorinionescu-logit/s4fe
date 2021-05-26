@@ -1577,12 +1577,12 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.10.0"
 
 babel-eslint@10.0.1:
   version "10.0.1"
@@ -2370,13 +2370,6 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
@@ -2885,6 +2878,11 @@ eventemitter3@^3.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
   integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
 
+eventemitter3@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
+
 exec-sh@^0.3.2:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/exec-sh/-/exec-sh-0.3.6.tgz#ff264f9e325519a60cb5e273692943483cca63bc"
@@ -3206,12 +3204,10 @@ flatted@^2.0.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
   integrity sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -3671,7 +3667,7 @@ inquirer@^7.0.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -6020,10 +6016,10 @@ react-native-navigation-bar-color@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-native-navigation-bar-color/-/react-native-navigation-bar-color-2.0.1.tgz#ee2be25cc37105f7da355717b0a9a32c9c059ae6"
   integrity sha512-1kE/oxWt+HYjRxdZdvke9tJ365xaee5n3+euOQA1En8zQuSbOxiE4SYEGM7TeaWnmLJ0l37mRnPHaB2H4mGh0A==
 
-react-native-nfc-manager@^2.1.9:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/react-native-nfc-manager/-/react-native-nfc-manager-2.3.1.tgz#3b32d9ed10150fc84f5c555de7cbd0d9e0df8477"
-  integrity sha512-eFfnNMjDojmwq5y8GuhdxK9rvlDeSVJ13IeA0a3pKy3V26qfgeWklMX1rMchxAtAbZ26uTvHuiLoptrCbDxlxw==
+react-native-nfc-manager@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-nfc-manager/-/react-native-nfc-manager-3.5.0.tgz#4261da8eeb423482afce8ce0200b4f8205b7a614"
+  integrity sha512-JZOr9cLFEBEMfsl4XZ/uls9NOhX1FCfml5HWnBDt7or+BgdKfai9U/NSbAJunuK93WUMVXE21v2F3xrApY7yTw==
 
 react-native-parsed-text@0.0.22:
   version "0.0.22"
@@ -6096,6 +6092,14 @@ react-native-screens@^2.9.0:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.18.1.tgz#47b9991c6f762d00d0ed3233e5283d523e859885"
   integrity sha512-r5WZLpmx2hHjC1RgMdPq5YpSU9tEhBpUaZ5M1SUtNIONyiLqQVxabhRCINdebIk4depJiIl7yw2Q85zJyeX6fw==
+
+react-native-social-login@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-social-login/-/react-native-social-login-1.0.0.tgz#241369aace3e3317fca019d83efcc649d026a3f9"
+  integrity sha512-nFbCfSpG+Kjib0yE3owx4zOffazUk+qxePQ7uqVEZGlZHv7tWbPc60iEeg96ACIM0MvfNuDM2QppNulDisd1uw==
+  dependencies:
+    invariant "^2.2.1"
+    valib "^2.0.0"
 
 react-native-svg@^12.1.0:
   version "12.1.1"
@@ -6458,6 +6462,13 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
+
+revent-lib@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/revent-lib/-/revent-lib-0.0.4.tgz#1948d6650d7c4adbf856d162239188e5a3b055a8"
+  integrity sha512-UP13mcUcaWJM7vltX1pYyux8pR87cOyMw18QNkWT40N3H417Z76EpFN3vhRFUrWhbbYfX2SHImd9FwrmeY+JtA==
+  dependencies:
+    eventemitter3 "^4.0.7"
 
 rimraf@2.6.3:
   version "2.6.3"
@@ -7361,6 +7372,11 @@ v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
+
+valib@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/valib/-/valib-2.0.0.tgz#e0d455b10e17ae605c0f33971adac73564ee18a7"
+  integrity sha1-4NRVsQ4XrmBcDzOXGtrHNWTuGKc=
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
